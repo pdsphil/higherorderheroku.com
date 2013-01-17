@@ -1,5 +1,6 @@
 - content_for(:page_title, "Developing applications the Heroku way")
 
 - for article in articles
-  %h1= link_to(article.data['title'], article)
-  %p.summary= article.data['summary']
+  %h1
+    = link_to(article.data['title'], article)
+    %p.meta= article.data['date']

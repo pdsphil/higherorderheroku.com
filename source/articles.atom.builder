@@ -15,7 +15,6 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.published "#{Date.parse(article.data['date']).iso8601}T00:00:00-08:00"
       xml.updated "#{Date.parse(article.data['date']).iso8601}T00:00:00-08:00"
       xml.author { xml.name "Ryan Daigle" }
-      xml.summary article.data['summary'], "type" => "html"
       xml.content article.render(:layout => false), "type" => "html"
     end
   end

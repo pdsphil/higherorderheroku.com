@@ -2,5 +2,7 @@
 
 - wrap_layout(:application) do
 
-  %h2= current_page.data['title']
+  %h2
+    = current_page.data['title']
+    %p.meta= current_page.data['date']
   = yield

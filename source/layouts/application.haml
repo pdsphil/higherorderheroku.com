@@ -20,13 +20,15 @@
     .wrapper
       %header
         %h1
-          %a(href="/") Higher Order Heroku
-        %p Developing applications the Heroku way.
+          %a(href="/")
+            %img.logo(src="#{image_path('heroku.png')}")
+            Higher Order Heroku
+        %p Develop, deploy and manage applications the Heroku way.
 
       %section
         = yield
 
       %footer
-        %p Higher Order Heroku is maintained by <a href="https://twitter.com/rwdaigle">@rwdaigle</a>
+        %p Higher Order Heroku is a <a href="https://twitter.com/rwdaigle">@rwdaigle</a> project available <a href="https://twitter.com/HOHeroku">@HOHeroku</a> and via a <a href="/articles.atom">feed</a>.
         %p
           %small Hosted on Heroku &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a>

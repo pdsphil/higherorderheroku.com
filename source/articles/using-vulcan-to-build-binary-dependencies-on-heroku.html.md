@@ -1,8 +1,6 @@
 ---
 title: Building Dependency Binaries for Heroku Applications
-date: January 17, 2012
-summary:
-  Assigning a group of worker processes to operate, in parallel, against a large dataset is a very efficient approach to data processing. Process partitioning is a scalable approach for coordinating work across a pool of independent workers.
+date: July 10, 2012
 ---
 
 Managing an application's code dependencies, once a source of constant pain and conflict, is now a solved problem in most modern languages. Ruby has [Bundler](http://gembundler.com/), Node.js has [npm](http://npmjs.org/), Python has [pip](http://pypi.python.org/pypi/pip), Clojure has [Leiningen](https://github.com/technomancy/leiningen)… the list continues.
