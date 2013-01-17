@@ -1,0 +1,6 @@
+- content_for(:page_title, current_page.data['title'])
+
+- wrap_layout(:application) do
+
+  %h2= current_page.data['title']
+  = yield

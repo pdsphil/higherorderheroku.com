@@ -1,0 +1,47 @@
+worker_processes  2;
+daemon off;
+
+events {
+  worker_connections  1024;
+}
+
+http {
+
+  include            mime.types;
+  default_type       application/octet-stream;
+
+  sendfile           on;
+  keepalive_timeout  65;
+
+  port_in_redirect   off;
+
+  server {
+
+    listen           <%= ENV['PORT'] %>;
+    server_name      <%= ENV['HOST'] || 'localhost' %>;
+
+    index            index.html;
+    try_files        $uri $uri/ /index.html;
+    access_log       off;
+
+    gzip_static      on;
+    gzip_proxied     any;
+    gzip_disable     "msie6";
+
+    add_header       Vary Accept-Encoding;
+    add_header       Cache-Control public;
+
+    # Generated site at "build" root dir
+    location / {
+      root           build;
+      autoindex      off;
+      expires        <%= ENV['DEFAULT_TTL'] || 3600 %>s;
+
+      # Static assets
+      location ~* (-[A-Za-z0-9]+)\.(css|js|gif|jpe?g|png|woff) {
+        expires max;
+        break;
+      }
+    }
+  }
+}
