@@ -1,0 +1,25 @@
+-
+  data:
+    title: Pretty visualization of your Postgres 9.2 database w/ Datascope
+    url: https://github.com/will/datascope
+    date: November 12, 2012
+-
+  data:
+    title: Learn Go. By example. With examples.
+    url: https://gobyexample.com/
+    date: December 15, 2012
+-
+  data:
+    title: The Twelve-Factor App. Required reading.
+    url: http://www.12factor.net/
+    date: March 1, 2012
+-
+  data:
+    title: Waza. Heroku's developer conference.
+    url: https://waza.heroku.com/
+    date: January 15, 2013
+-
+  data:
+    title: "Lock-smith: A multi-datastore locking library."
+    url: https://github.com/ryandotsmith/lock-smith
+    date: October 30, 2012

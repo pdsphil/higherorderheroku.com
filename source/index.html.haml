@@ -1,6 +1,10 @@
 - content_for(:page_title, "Developing on the Heroku platform")
 
-- for article in articles
-  %h1
-    = link_to(article.data['title'], article)
-    %p.meta= article.data['date']
+- for entry in coalesce(articles, links)
+  - if(link_entry?(entry))
+    %h1.link
+      = link_to(entry.data['title'], entry.data['url'])
+  - else
+    %h1
+      = link_to(entry.data['title'], entry)
+      %p.meta= entry.data['date']
