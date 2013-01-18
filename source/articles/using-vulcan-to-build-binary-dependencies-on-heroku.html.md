@@ -314,32 +314,27 @@ If working across multiple development environments or some other non-default wo
 
 This occurs when the CLI secret hash, created when the build server was created with `vulcan create`, either doesn't exist or doesn't match the server-side secret. The most common cause is that the `~/.vulcan` configuration file doesn't exist in your environment. You can create it with the following contents:
 
-<h5 class="file">~/.vulcan</h5>
-<pre lang="yaml"><code>
+```yaml
 --- 
 :app: buildserver-you
 :host: buildserver-you.herokuapp.com
 :secret: reallylonghash12df
-</code></pre>
+```
 
 If you don't have access to your original `.vulcan` file you can find your secret on Heroku using `heroku config`:
 
-<pre lang="bash"><code>
+```bash
 $ heroku config:get SECRET -a buildserver-you
 reallylonghash12df
-</code></pre>
+```
 
-<p class="note" markdown="1">
 Copy your `~/.vulcan` file to each development machine from which you wish to invoke builds.
-</p>
 
 ## Heroku binaries
 
 During the course of writing this article the following binaries were compiled for use on Heroku.
 
-<p class="note" markdown="1">
 If you'd like to list a Heroku binary here, please [send a pull request](https://github.com/rwdaigle/ryandaigle.com/blob/master/content/pages/a/using-vulcan-to-build-binary-dependencies-on-heroku.mdown).
-</p>
 
 <table>
   <tr>

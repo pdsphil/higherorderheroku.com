@@ -2,7 +2,7 @@
   data:
     title: Pretty visualization of your Postgres 9.2 database w/ Datascope
     url: https://github.com/will/datascope
-    date: November 12, 2012
+    date: November 1, 2012
 -
   data:
     title: Learn Go. By example. With examples.
@@ -23,3 +23,8 @@
     title: "Lock-smith: A multi-datastore locking library."
     url: https://github.com/ryandotsmith/lock-smith
     date: October 30, 2012
+-
+  data:
+    title: Automatically generate REST APIs from iOS Core Data models
+    url: https://github.com/mattt/rack-core-data
+    date: December 20, 2012
