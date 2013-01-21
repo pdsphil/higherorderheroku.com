@@ -1,5 +1,10 @@
 -
   data:
+    title: Use a Heroku buildpack to render GitHub flavored markdown with custom CSS
+    url: http://afternoon-peak-2333.herokuapp.com/README.html
+    date: January 21, 2013
+-
+  data:
     title: "Handling Growth with Postgres: 5 Tips From Instagram"
     url: http://instagram-engineering.tumblr.com/
     date: January 18, 2013
