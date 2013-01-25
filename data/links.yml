@@ -1,5 +1,10 @@
 -
   data:
+    title: Example app demonstrating the background worker pattern paired with JQuery-based status polling by @jonmountjoy
+    url: https://github.com/jonmountjoy/queue_classic_demo
+    date: January 25, 2013
+-
+  data:
     title: Deploy to Heroku after successful Travis CI builds using this gem by @ph1
     url: http://blog.thepete.net/blog/2013/01/21/deploying-to-heroku-from-ci/
     date: January 23, 2013
