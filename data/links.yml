@@ -1,5 +1,10 @@
 -
   data:
+    title: "A Heroku CLI plugin to quickly determine app health, from @neilmiddleton" 
+    url: https://github.com/neilmiddleton/heroku-healthcheck
+    date: January 26, 2013
+-
+  data:
     title: Example app demonstrating the background worker pattern paired with JQuery-based status polling by @jonmountjoy
     url: https://github.com/jonmountjoy/queue_classic_demo
     date: January 25, 2013
