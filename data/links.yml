@@ -1,5 +1,10 @@
 -
   data:
+    title: "An in-depth look at building SaaS Postgression on Heroku"
+    url: http://blog.treasure-data.com/post/41886298790/just-stdout-the-simplest-most-flexible-way-to-collect
+    date: January 30, 2013
+-
+  data:
     title: "Easily import large data-sets into Hadoop from your app's log-stream. From Heroku add-on provider @TreasureData" 
     url: http://blog.treasure-data.com/post/41886298790/just-stdout-the-simplest-most-flexible-way-to-collect
     date: January 30, 2013
