@@ -8,7 +8,7 @@ module PageHelpers
     @links ||= date_sort(data.links)[0..limit]
   end
 
-  def coalesce(col1, col2, limit = 15)
+  def coalesce(col1, col2, limit = 30)
     date_sort(col1 + col2)[0..limit]
   end
 
