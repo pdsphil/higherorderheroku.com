@@ -104,7 +104,7 @@ Next, use the Vulcan CLI to initiate a build task on the build server with `vulc
 $ vulcan build -v -s ./ghostscript-9.05
 Packaging local directory... done
 Uploading source package... done
-Building with: ./configure --prefix /app/vendor/ghostscript-9 &amp;&amp; make install
+Building with: ./configure --prefix /app/vendor/ghostscript-9 && make install
 checking for gcc... gcc
 checking whether the C compiler works... yes
 ...
@@ -121,10 +121,10 @@ Although the [Vulcan source](https://github.com/heroku/vulcan) indicates the abi
 Looking at the output from the Ghostscript example you can see that a sensible [autoconf-based](http://en.wikipedia.org/wiki/Autoconf) command is chosen for you: `./configure --prefix /app/vendor/ghostscript-9 && make install`. If you need to specify a non-default build command you can do so with the `-c` flag. Here is an example adding the `--without-ssl` configure option when building `wget`.
 
 ```bash
-$ vulcan build -v -s ./wget-1.13 -c "./configure --prefix /app/vendor/wget-1.13 --without-ssl &amp;&amp; make install" -p /app/vendor/wget-1.13
+$ vulcan build -v -s ./wget-1.13 -c "./configure --prefix /app/vendor/wget-1.13 --without-ssl && make install" -p /app/vendor/wget-1.13
 Packaging local directory... done
 Uploading source package... done
-Building with: ./configure --without-ssl &amp;&amp; make install
+Building with: ./configure --without-ssl && make install
 configure: configuring for GNU Wget 1.13
 ...
 >> Downloading build artifacts to: /tmp/wget-1.tgz
@@ -345,7 +345,7 @@ If you'd like to list a Heroku binary here, please [send a pull request](https:/
   </tr>
   <tr>
     <td><a href="http://ftp.gnu.org/gnu/wget/wget-1.13.tar.gz">GNU Wget v1.13</a></td>
-    <td><code>vulcan build -v -s ./wget-1.13 -c "./configure --prefix /app/vendor/wget-1.13 --without-ssl &amp;&amp; make install" -p /app/vendor/wget-1.13</code></td>
+    <td><code>vulcan build -v -s ./wget-1.13 -c "./configure --prefix /app/vendor/wget-1.13 --without-ssl && make install" -p /app/vendor/wget-1.13</code></td>
     <td><a href="http://cl.ly/1B0n121X1T200g3u2a1k/wget-1.tgz">download</a></td>
     <td><a href="https://twitter.com/rwdaigle">@rwdaigle</a></td>
   </tr>
