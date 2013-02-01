@@ -23,7 +23,9 @@
           %a(href="/")
             %img.logo(height="91" width="73" src="#{image_path('heroku.png')}")
             Higher Order Heroku
-        %p Developing on the Heroku platform.
+        %p Developing on Heroku
+        #heroku-weekly
+          = partial 'heroku_weekly'
 
       %section
         = yield
