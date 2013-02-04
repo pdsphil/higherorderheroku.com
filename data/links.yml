@@ -1,5 +1,10 @@
 -
   data:
+    title: "Using the JSON features of Postgres 9.2"
+    url: http://blog.hashrocket.com/posts/faster-json-generation-with-postgresql
+    date: February 4, 2013
+-
+  data:
     title: "An in-depth look at building SaaS Postgression on Heroku (updated link)"
     url: http://rdegges.com/building-postgression
     date: January 30, 2013
