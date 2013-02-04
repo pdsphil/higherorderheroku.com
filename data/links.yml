@@ -1,5 +1,10 @@
 -
   data:
+    title: Run your own sandboxed Rubygems server on Heroku with this buildpack from @mitchellh
+    url: https://github.com/hashicorp/heroku-buildpack-rubygem-server
+    date: February 4, 2013
+-
+  data:
     title: "Using the JSON features of Postgres 9.2"
     url: http://blog.hashrocket.com/posts/faster-json-generation-with-postgresql
     date: February 4, 2013
