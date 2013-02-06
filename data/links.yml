@@ -1,5 +1,10 @@
 -
   data:
+    title: Cut Django request processing time by 75% with Django DB Pool
+    url: http://mixedbit.org/blog/2013/02/06/django_db_pool_on_heroku.html
+    date: February 6, 2013
+-
+  data:
     title: Run your own sandboxed Rubygems server on Heroku with this buildpack from @mitchellh
     url: https://github.com/hashicorp/heroku-buildpack-rubygem-server
     date: February 4, 2013
