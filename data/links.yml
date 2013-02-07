@@ -1,5 +1,10 @@
 -
   data:
+    title: Get the most out of your ElasticSearch add-on
+    url: http://euphonious-intuition.com/2013/02/five-things-i-learned-from-elasticsearch-training
+    date: February 7, 2013
+-
+  data:
     title: Cut Django request processing time by 75% with Django DB Pool
     url: http://mixedbit.org/blog/2013/02/06/django_db_pool_on_heroku.html
     date: February 6, 2013
