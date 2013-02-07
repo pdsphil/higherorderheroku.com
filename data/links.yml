@@ -1,5 +1,10 @@
 -
   data:
+    title: "50 high school students deploy to Heroku _from a Raspberry Pi_"
+    url: http://blog.gaslight.co/post/41954869262/pi-rails-heroku-students-awesome
+    date: February 7, 2013
+-
+  data:
     title: Get the most out of your ElasticSearch add-on
     url: http://euphonious-intuition.com/2013/02/five-things-i-learned-from-elasticsearch-training
     date: February 7, 2013
