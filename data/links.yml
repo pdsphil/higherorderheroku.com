@@ -1,5 +1,10 @@
 -
   data:
+    title: "Quickly flip your Django app on Heroku into read-only mode with this tool"
+    url: http://craigkerstiens.com/2013/02/08/django-read-only-mode/
+    date: February 8, 2013
+-
+  data:
     title: "Deploy a Meteor Node.js app to Heroku in 5 minutes"
     url: http://www.devinprogress.info/2013/01/a-meteor-nodejs-app-to-heroku-in-5.html
     date: February 8, 2013
