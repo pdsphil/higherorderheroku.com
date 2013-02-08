@@ -1,5 +1,10 @@
 -
   data:
+    title: "Over 40 hours of Rails and Heroku class material available for free from @schneems"
+    url: http://schneems.com/ut-rails
+    date: February 8, 2013
+-
+  data:
     title: "Heroku Weekly newsletter #1 published"
     url: http://mad.ly/00ed73
     date: February 7, 2013
