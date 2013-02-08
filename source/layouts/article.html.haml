@@ -2,9 +2,11 @@
 
 - wrap_layout(:application) do
 
+  %a(href="https://plus.google.com/u/0/106431285901024293656?rel=author")
+
   %h2
     = current_page.data['title']
-    %p.meta= current_page.data['date']
+    %p.meta= "By Ryan Daigle on #{current_page.data['date']}"
   = yield
 
   = partial 'disqus'
