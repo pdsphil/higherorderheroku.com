@@ -1,5 +1,10 @@
 -
   data:
+    title: "Deploy a Meteor Node.js app to Heroku in 5 minutes"
+    url: http://www.devinprogress.info/2013/01/a-meteor-nodejs-app-to-heroku-in-5.html
+    date: February 8, 2013
+-
+  data:
     title: "Over 40 hours of Rails and Heroku class material available for free from @schneems"
     url: http://schneems.com/ut-rails
     date: February 8, 2013
