@@ -1,5 +1,10 @@
 -
   data:
+    title: Notes from Heroku user and employee @ryandotsmith for building and scaling on Heroku
+    url: https://gist.github.com/ryandotsmith/4741242
+    date: February 11, 2013
+-
+  data:
     title: "Quickly flip your Django app on Heroku into read-only mode with this tool"
     url: http://craigkerstiens.com/2013/02/08/django-read-only-mode/
     date: February 8, 2013
