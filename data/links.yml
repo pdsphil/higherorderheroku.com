@@ -1,5 +1,10 @@
 -
   data:
+    title: Using Amazon Route 53 DNS for your Heroku app
+    url: https://devcenter.heroku.com/articles/route-53
+    date: February 12, 2013
+-
+  data:
     title: Notes from Heroku user and employee @ryandotsmith for building and scaling on Heroku
     url: https://gist.github.com/ryandotsmith/4741242
     date: February 11, 2013
