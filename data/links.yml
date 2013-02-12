@@ -1,5 +1,10 @@
 -
   data:
+    title: Understanding Heroku dynos
+    url: http://rdegges.com/heroku-dynos-in-depth
+    date: February 12, 2013
+-
+  data:
     title: Using the cloud-based IDE action.io with a Heroku Postgres database
     url: http://blog.action.io/2013/02/11/postgres-action-io-3.html
     date: February 12, 2013
