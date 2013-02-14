@@ -1,5 +1,10 @@
 -
   data:
+    title: Tips for working with the psql Postgres command line
+    url: http://craigkerstiens.com/2013/02/13/How-I-Work-With-Postgres/
+    date: February 13, 2013
+-
+  data:
     title: Chain multiple buildpacks together to create higher-order build functionality with multi-buildpack
     url: http://www.neilmiddleton.com/the-composability-of-buildpacks/
     date: February 13, 2013
