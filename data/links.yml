@@ -1,5 +1,10 @@
 -
   data:
+    title: Chain multiple buildpacks together to create higher-order build functionality with multi-buildpack
+    url: http://www.neilmiddleton.com/the-composability-of-buildpacks/
+    date: February 13, 2013
+-
+  data:
     title: Understanding Heroku dynos
     url: http://rdegges.com/heroku-dynos-in-depth
     date: February 12, 2013

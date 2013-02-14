@@ -1,14 +1,16 @@
 module PageHelpers
 
-  def articles(limit = 15)
+  INDEX_LIMIT = 100
+
+  def articles(limit = INDEX_LIMIT)
     @articles ||= date_sort(sitemap.resources.select { |r| r.path.start_with?('articles/') })[0..limit]
   end
 
-  def links(limit = 15)
+  def links(limit = INDEX_LIMIT)
     @links ||= date_sort(data.links)[0..limit]
   end
 
-  def coalesce(col1, col2, limit = 30)
+  def coalesce(col1, col2, limit = INDEX_LIMIT)
     date_sort(col1 + col2)[0..limit]
   end
 
