@@ -1,5 +1,10 @@
 -
   data:
+    title: "Easily transfer your config vars to and from your Heroku app"
+    url: https://github.com/ddollar/heroku-config
+    date: February 20, 2013
+-
+  data:
     title: "Heroku Weekly newsletter #2"
     url: http://mad.ly/98e083
     date: February 19, 2013
