@@ -1,5 +1,10 @@
 -
   data:
+    title: "Sharding your Heroku Postgres database"
+    url: http://www.craigkerstiens.com/2012/11/30/sharding-your-database/
+    date: February 21, 2013
+-
+  data:
     title: "Easily transfer your config vars to and from your Heroku app"
     url: https://github.com/ddollar/heroku-config
     date: February 20, 2013
