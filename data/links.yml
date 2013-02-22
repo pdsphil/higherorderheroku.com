@@ -1,5 +1,10 @@
 -
   data:
+    title: "Create a markdown-driven static site on Heroku"
+    url: http://blog.jr0cket.co.uk/2013/01/markdown-driven-developer-sites-on.html
+    date: February 22, 2013
+-
+  data:
     title: "Sharding your Heroku Postgres database"
     url: http://www.craigkerstiens.com/2012/11/30/sharding-your-database/
     date: February 21, 2013
