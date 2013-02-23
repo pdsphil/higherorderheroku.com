@@ -1,5 +1,10 @@
 -
   data:
+    title: "Run Wordpress with MySQL on Heroku"
+    url: http://wpdaily.co/heroku-buildpack/
+    date: February 23, 2013
+-
+  data:
     title: "Create a markdown-driven static site on Heroku"
     url: http://blog.jr0cket.co.uk/2013/01/markdown-driven-developer-sites-on.html
     date: February 22, 2013
