@@ -1,5 +1,10 @@
 -
   data:
+    title: "Getting more out of psql, the Postgres command line"
+    url: http://craigkerstiens.com/2013/02/21/more-out-of-psql/
+    date: February 26, 2013
+-
+  data:
     title: "Running Python apps on Heroku with uWSGI"
     url: https://github.com/unbit/uwsgi-docs/blob/master/tutorials/heroku_python.rst
     date: February 25, 2013
