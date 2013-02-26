@@ -1,5 +1,10 @@
 -
   data:
+    title: "Using Splunk with Heroku"
+    url: http://robots.thoughtbot.com/post/43803022282/how-to-splunk-with-heroku
+    date: February 26, 2013
+-
+  data:
     title: "Getting more out of psql, the Postgres command line"
     url: http://craigkerstiens.com/2013/02/21/more-out-of-psql/
     date: February 26, 2013
