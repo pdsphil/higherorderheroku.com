@@ -1,5 +1,10 @@
 -
   data:
+    title: "Noveku - a tool for managing multi-environment apps on Heroku"
+    url: https://github.com/novelys/noveku
+    date: February 27, 2013
+-
+  data:
     title: "Using Splunk with Heroku"
     url: http://robots.thoughtbot.com/post/43803022282/how-to-splunk-with-heroku
     date: February 26, 2013
