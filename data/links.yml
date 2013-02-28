@@ -1,5 +1,10 @@
 -
   data:
+    title: "Configuring a static asset pipeline with Django and Heroku"
+    url: http://refer.ly/configuring-a-static-asset-pipeline-with-django-and-heroku/c/b439813680dc11e2bfbf22000a1db8fa
+    date: February 27, 2013
+-
+  data:
     title: "Noveku - a tool for managing multi-environment apps on Heroku"
     url: https://github.com/novelys/noveku
     date: February 27, 2013
