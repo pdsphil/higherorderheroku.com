@@ -1,5 +1,10 @@
 -
   data:
+    title: "Postgres: The bits you haven't found (with dozens of example queries and dataclips)"
+    url: http://postgres-bits.herokuapp.com/#1
+    date: March 4, 2013
+-
+  data:
     title: "Use Puma 2 with Rubinius 2 on Heroku Cedar for true multi-threading"
     url: http://rubini.us/2013/02/26/heroku-cedar-rubinius-2-puma-2-in-three-easy-steps/
     date: March 4, 2013
