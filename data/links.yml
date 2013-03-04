@@ -1,5 +1,10 @@
 -
   data:
+    title: "Use Puma 2 with Rubinius 2 on Heroku Cedar for true multi-threading"
+    url: http://rubini.us/2013/02/26/heroku-cedar-rubinius-2-puma-2-in-three-easy-steps/
+    date: March 4, 2013
+-
+  data:
     title: "Configuring a static asset pipeline with Django and Heroku"
     url: http://refer.ly/configuring-a-static-asset-pipeline-with-django-and-heroku/c/b439813680dc11e2bfbf22000a1db8fa
     date: February 27, 2013
