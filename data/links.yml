@@ -1,5 +1,10 @@
 -
   data:
+    title: "Run a local process against remote resources on Heroku with the heroku-surrogate CLI plugin"
+    url: https://github.com/tpope/heroku-surrogate
+    date: March 4, 2013
+-
+  data:
     title: "Postgres: The bits you haven't found (with dozens of example queries and dataclips)"
     url: http://postgres-bits.herokuapp.com/#1
     date: March 4, 2013
