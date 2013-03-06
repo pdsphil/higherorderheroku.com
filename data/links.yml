@@ -1,5 +1,10 @@
 -
   data:
+    title: "Gain insight into your app's Unicorn queuing and backlog metrics with heroku-unicorn-metrics"
+    url: https://github.com/heroku/heroku-unicorn-metrics
+    date: March 6, 2013
+-
+  data:
     title: "Clone an app on Heroku (including add-ons and config vars) with the heroku-fork CLI plugin"
     url: https://github.com/ddollar/heroku-fork
     date: March 5, 2013
