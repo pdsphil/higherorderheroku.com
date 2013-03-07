@@ -1,5 +1,10 @@
 -
   data:
+    title: "Video of Ruby creator Matz's talk at Waza about Ruby 2.0"
+    url: https://blog.heroku.com/archives/2013/3/6/matz_highlights_ruby_2_0_at_waza
+    date: March 6, 2013
+-
+  data:
     title: "Gain insight into your app's Unicorn queuing and backlog metrics with heroku-unicorn-metrics"
     url: https://github.com/heroku/heroku-unicorn-metrics
     date: March 6, 2013
