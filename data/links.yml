@@ -1,5 +1,10 @@
 -
   data:
+    title: "Building faceted search with Postgres"
+    url: http://tech.pro/tutorial/1142/building-faceted-search-with-postgresql
+    date: March 7, 2013
+-
+  data:
     title: "Video of Ruby creator Matz's talk at Waza about Ruby 2.0"
     url: https://blog.heroku.com/archives/2013/3/6/matz_highlights_ruby_2_0_at_waza
     date: March 6, 2013
