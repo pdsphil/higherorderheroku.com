@@ -1,5 +1,10 @@
 -
   data:
+    title: "Logging in Pythong, the 12 Factor way"
+    url: http://hynek.me/articles/taking-some-pain-out-of-python-logging/
+    date: March 11, 2013
+-
+  data:
     title: "Building faceted search with Postgres"
     url: http://tech.pro/tutorial/1142/building-faceted-search-with-postgresql
     date: March 7, 2013
