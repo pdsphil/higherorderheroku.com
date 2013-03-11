@@ -1,5 +1,10 @@
 -
   data:
+    title: "Think git is the only way to deploy to Heroku? Think again."
+    url: https://github.com/ddollar/heroku-push
+    date: March 11, 2013
+-
+  data:
     title: "Logging in Python, the 12 Factor way"
     url: http://hynek.me/articles/taking-some-pain-out-of-python-logging/
     date: March 11, 2013
