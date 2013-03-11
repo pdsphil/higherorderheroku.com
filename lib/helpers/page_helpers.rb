@@ -1,6 +1,6 @@
 module PageHelpers
 
-  INDEX_LIMIT = 100
+  INDEX_LIMIT = 200
 
   def articles(limit = INDEX_LIMIT)
     @articles ||= date_sort(sitemap.resources.select { |r| r.path.start_with?('articles/') })[0..limit]
