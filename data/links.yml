@@ -1,5 +1,10 @@
 -
   data:
+    title: "Create command shortcuts with the heroku-alias CLI plugin"
+    url: https://github.com/daneharrigan/heroku-alias
+    date: March 12, 2013
+-
+  data:
     title: "Sign up now for the Postgres Weekly. A free, once–weekly e-mail round-up of PostgreSQL news and articles."
     url: http://postgresweekly.com/
     date: March 12, 2013
