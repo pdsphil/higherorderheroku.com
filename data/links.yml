@@ -1,5 +1,10 @@
 -
   data:
+    title: "Deploy to heroku from your Campfire chatroom with the hubot-heroku script"
+    url: https://github.com/johnbeynon/hubot-heroku
+    date: March 12, 2013
+-
+  data:
     title: "Create command shortcuts with the heroku-alias CLI plugin"
     url: https://github.com/daneharrigan/heroku-alias
     date: March 12, 2013
