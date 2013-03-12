@@ -1,5 +1,10 @@
 -
   data:
+    title: "Sign up now for the Postgres Weekly. A free, once–weekly e-mail round-up of PostgreSQL news and articles."
+    url: http://postgresweekly.com/
+    date: March 12, 2013
+-
+  data:
     title: "Think git is the only way to deploy to Heroku? Think again."
     url: https://github.com/ddollar/heroku-push
     date: March 11, 2013
