@@ -1,5 +1,10 @@
 -
   data:
+    title: "Automatically trace web requests from router to dyno with the http-request-id labs feature"
+    url: https://devcenter.heroku.com/articles/http-request-id
+    date: March 14, 2013
+-
+  data:
     title: "Deploy to heroku from your Campfire chatroom with the hubot-heroku script"
     url: https://github.com/johnbeynon/hubot-heroku
     date: March 12, 2013
@@ -35,8 +40,8 @@
     date: March 6, 2013
 -
   data:
-    title: "Gain insight into your app's Unicorn queuing and backlog metrics with heroku-unicorn-metrics"
-    url: https://github.com/heroku/heroku-unicorn-metrics
+    title: "Gain insight into your app's Unicorn queuing and backlog metrics with rack-queue-metrics"
+    url: https://github.com/heroku/rack-queue-metrics
     date: March 6, 2013
 -
   data:
