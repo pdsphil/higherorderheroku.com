@@ -1,5 +1,10 @@
 -
   data:
+    title: "Identify your Postgres db's slow queries, cache hit ratios, open transactions, locks and more with heroku-pg-extras"
+    url: https://github.com/heroku/heroku-pg-extras
+    date: March 15, 2013
+-
+  data:
     title: "Automatically trace web requests from router to dyno with the http-request-id labs feature"
     url: https://devcenter.heroku.com/articles/http-request-id
     date: March 14, 2013
