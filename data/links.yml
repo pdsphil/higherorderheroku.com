@@ -1,5 +1,10 @@
 -
   data:
+    title: "Establish an interactive session to your Redis add-on from the CLI with the heroku-redis-cli plugin"
+    url: https://github.com/ddollar/heroku-redis-cli
+    date: March 18, 2013
+-
+  data:
     title: "Identify your Postgres db's slow queries, cache hit ratios, open transactions, locks and more with heroku-pg-extras"
     url: https://github.com/heroku/heroku-pg-extras
     date: March 15, 2013
