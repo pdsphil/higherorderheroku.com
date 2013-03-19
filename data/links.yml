@@ -1,5 +1,10 @@
 -
   data:
+    title: "Log unix system stats including memory use, swap use, and load average from every dyno with log-runtime-metrics"
+    url: https://devcenter.heroku.com/changelog-items/219
+    date: March 19, 2013
+-
+  data:
     title: "Run a single command across multiple Heroku apps with this wilcard plugin from @tpope"
     url: https://github.com/tpope/heroku-wildcards
     date: March 18, 2013
