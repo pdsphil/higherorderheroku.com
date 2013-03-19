@@ -1,5 +1,10 @@
 -
   data:
+    title: "Log2viz: a real-time dashboard into your Heroku dynos' resource consumption and request error rates"
+    url: https://blog.heroku.com/archives/2013/3/19/log2viz
+    date: March 19, 2013
+-
+  data:
     title: "Log unix system stats including memory use, swap use, and load average from every dyno with log-runtime-metrics"
     url: https://devcenter.heroku.com/changelog-items/219
     date: March 19, 2013
