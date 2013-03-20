@@ -1,5 +1,10 @@
 -
   data:
+    title: "Automatically create Librato graphs from Heroku logs via the Papertrail add-on"
+    url: https://github.com/eric/p2met
+    date: March 20, 2013
+-
+  data:
     title: "Implement a Heroku OAuth client with the heroku-bouncer middleware"
     url: https://github.com/heroku/heroku-bouncer
     date: March 20, 2013
