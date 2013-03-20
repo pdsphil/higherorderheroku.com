@@ -1,5 +1,10 @@
 -
   data:
+    title: "Implement a Heroku OAuth client with the heroku-bouncer middleware"
+    url: https://github.com/heroku/heroku-bouncer
+    date: March 20, 2013
+-
+  data:
     title: "Log2viz: a real-time dashboard into your Heroku dynos' resource consumption and request error rates"
     url: https://blog.heroku.com/archives/2013/3/19/log2viz
     date: March 19, 2013
