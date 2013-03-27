@@ -1,5 +1,10 @@
 -
   data:
+    title: "Getting the most out of your worker dynos with Sidekiq and Redis"
+    url: https://www.pushlayer.com/blog/2013/03/11/how-we-use-sidekiq-and-redis-for-massively-concurrent-workers
+    date: March 27, 2013
+-
+  data:
     title: "Instrumenting the Twelve Factor app talk from Waza. By @librato's CTO"
     url: http://blog.librato.com/posts/2013/3/25/instrumenting-the-twelve-factor-app
     date: March 26, 2013
