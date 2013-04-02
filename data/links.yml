@@ -1,5 +1,10 @@
 -
   data:
+    title: "Generate and deploy a starter Django to Heroku with django-pal"
+    url: https://github.com/suneel0101/django-pal
+    date: April 1, 2013
+-
+  data:
     title: "Getting the most out of your worker dynos with Sidekiq and Redis"
     url: https://www.pushlayer.com/blog/2013/03/11/how-we-use-sidekiq-and-redis-for-massively-concurrent-workers
     date: March 27, 2013
