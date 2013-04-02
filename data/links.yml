@@ -1,5 +1,10 @@
 -
   data:
+    title: "heroku-buildpack-testrunner: a simple unit testing framework for testing Heroku buildpacks"
+    url: https://github.com/ryanbrainard/heroku-buildpack-testrunner
+    date: April 2, 2013
+-
+  data:
     title: "Generate and deploy a starter Django to Heroku with django-pal"
     url: https://github.com/suneel0101/django-pal
     date: April 1, 2013
