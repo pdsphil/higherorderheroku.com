@@ -1,5 +1,10 @@
 -
   data:
+    title: "Automatically run rake db:migrate when deploying your Rails apps to Heroku with this buildpack tweak from @johnbeynon"
+    url: https://github.com/johnbeynon/heroku-buildpack-ruby/commit/d7ba273f2515cffab6d9d7cdebda82ad37aebe3c
+    date: April 3, 2013
+-
+  data:
     title: "heroku-buildpack-testrunner: a simple unit testing framework for testing Heroku buildpacks"
     url: https://github.com/ryanbrainard/heroku-buildpack-testrunner
     date: April 2, 2013
