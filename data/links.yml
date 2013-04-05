@@ -1,5 +1,10 @@
 -
   data:
+    title: "Double the memory of your dynos with 2X dynos"
+    url: https://devcenter.heroku.com/articles/dyno-size
+    date: April 5, 2013
+-
+  data:
     title: "Automatically run rake db:migrate when deploying your Rails apps to Heroku with this buildpack tweak from @johnbeynon"
     url: https://github.com/johnbeynon/heroku-buildpack-ruby/commit/d7ba273f2515cffab6d9d7cdebda82ad37aebe3c
     date: April 3, 2013
