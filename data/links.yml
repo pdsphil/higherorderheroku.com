@@ -1,5 +1,10 @@
 -
   data:
+    title: "Stay up to date with platform changes from the @HerokuChangelog via email"
+    url: http://heroku.us5.list-manage.com/subscribe?u=0b1e0fef51067967dd4d30249&id=00fc458291
+    date: April 11, 2013
+-
+  data:
     title: "Double the memory of your dynos with 2X dynos"
     url: https://devcenter.heroku.com/articles/dyno-size
     date: April 5, 2013
