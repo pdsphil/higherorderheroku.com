@@ -1,5 +1,10 @@
 -
   data:
+    title: "Warm a standby database with production query traffic with burninator"
+    url: https://github.com/jpignata/burninator
+    date: April 16, 2013
+-
+  data:
     title: "Stay up to date with platform changes from the @HerokuChangelog via email"
     url: http://heroku.us5.list-manage.com/subscribe?u=0b1e0fef51067967dd4d30249&id=00fc458291
     date: April 11, 2013
