@@ -1,5 +1,10 @@
 -
   data:
+    title: "Understanding request queueing"
+    url: http://www.appneta.com/2013/02/21/the-taming-of-the-queue-measuring-the-impact-of-request-queueing/
+    date: April 18, 2013
+-
+  data:
     title: "Warm a standby database with production query traffic with burninator"
     url: https://github.com/jpignata/burninator
     date: April 16, 2013
