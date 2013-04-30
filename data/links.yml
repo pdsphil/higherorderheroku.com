@@ -1,5 +1,10 @@
 -
   data:
+    title: "How Heroku Runs Heroku: The inside scoop on logs as data and a source of operational visibility"
+    url: http://vimeo.com/64925043
+    date: April 30, 2013
+-
+  data:
     title: "Understanding request queueing"
     url: http://www.appneta.com/2013/02/21/the-taming-of-the-queue-measuring-the-impact-of-request-queueing/
     date: April 18, 2013
