@@ -1,5 +1,10 @@
 -
   data:
+    title: "PostGIS v2.0 now supported on all production Heroku Postgres databases"
+    url: https://postgres.heroku.com/blog/past/2013/4/30/building_location_based_apps_with_postgis/
+    date: May 1, 2013
+-
+  data:
     title: "How Heroku Runs Heroku: The inside scoop on logs as data and a source of operational visibility"
     url: http://vimeo.com/64925043
     date: April 30, 2013
