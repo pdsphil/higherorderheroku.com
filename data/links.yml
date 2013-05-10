@@ -1,5 +1,10 @@
 -
   data:
+    title: "Embed Nginx in your dynos for improved Rails app performance and request buffering"
+    url: https://github.com/ryandotsmith/nginx-buildpack
+    date: May 10, 2013
+-
+  data:
     title: "PostGIS v2.0 now supported on all production Heroku Postgres databases"
     url: https://postgres.heroku.com/blog/past/2013/4/30/building_location_based_apps_with_postgis/
     date: May 1, 2013
