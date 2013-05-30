@@ -1,5 +1,10 @@
 -
   data:
+    title: "Deploying the Spree e-commerce platform to Heroku"
+    url: http://guides.spreecommerce.com/developer/heroku.html
+    date: May 30, 2013
+-
+  data:
     title: "Pull and push data to/from your Mongo add-on"
     url: https://github.com/pedro/heroku-mongo-sync
     date: May 22, 2013
