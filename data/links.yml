@@ -1,5 +1,10 @@
 -
   data:
+    title: "A Heroku API wrapper for Python"
+    url: https://github.com/heroku/heroku.py
+    date: June 6, 2013
+-
+  data:
     title: "Deploying the Spree e-commerce platform to Heroku"
     url: http://guides.spreecommerce.com/developer/heroku.html
     date: May 30, 2013
