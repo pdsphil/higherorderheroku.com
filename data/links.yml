@@ -1,5 +1,10 @@
 -
   data:
+    title: "Using service stubs to test multiple components in a service-oriented architecture"
+    url: https://brandur.org/service-stubs
+    date: June 17, 2013
+-
+  data:
     title: "Run pgbouncer in your dynos to access a shared Postgres connection pool"
     url: https://github.com/gregburek/heroku-buildpack-pgbouncer
     date: June 17, 2013
