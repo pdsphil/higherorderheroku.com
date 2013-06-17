@@ -1,5 +1,10 @@
 -
   data:
+    title: "Run pgbouncer in your dynos to access a shared Postgres connection pool"
+    url: https://github.com/gregburek/heroku-buildpack-pgbouncer
+    date: June 17, 2013
+-
+  data:
     title: "A simple pattern for tracing requests across a service-oriented architecture, from @brandur"
     url: https://brandur.org/request-ids
     date: June 7, 2013
