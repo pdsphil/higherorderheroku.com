@@ -1,5 +1,10 @@
 -
   data:
+    title: "The new Heroku API enters public beta. Build your own deployment tooling and extend the platform to your use-case"
+    url: https://blog.heroku.com/archives/2013/5/30/heroku-platform-api-beta
+    date: June 18, 2013
+-
+  data:
     title: "Using service stubs to test multiple components in a service-oriented architecture"
     url: https://brandur.org/service-stubs
     date: June 17, 2013
