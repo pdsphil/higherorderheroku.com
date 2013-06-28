@@ -1,5 +1,10 @@
 -
   data:
+    title: "Get early access to O'Reilly's Heroku book, written by Heroku employees"
+    url: http://shop.oreilly.com/product/0636920027409.do?code=WKERRLS#
+    date: June 28, 2013
+-
+  data:
     title: "The new Heroku API enters public beta. Build your own deployment tooling and extend the platform to your use-case"
     url: https://blog.heroku.com/archives/2013/5/30/heroku-platform-api-beta
     date: June 18, 2013
