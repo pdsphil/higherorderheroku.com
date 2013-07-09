@@ -1,5 +1,10 @@
 -
   data:
+    title: "Running production apps on Heroku, an in-depth video checklist"
+    url: http://vimeo.com/69263217
+    date: Jul 9, 2013
+-
+  data:
     title: "Get early access to O'Reilly's Heroku book, written by Heroku employees"
     url: http://shop.oreilly.com/product/0636920027409.do?code=WKERRLS#
     date: June 28, 2013
