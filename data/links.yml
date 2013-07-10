@@ -1,5 +1,10 @@
 -
   data:
+    title: "Run .NET apps on Heroku"
+    url: http://friism.com/running-net-on-heroku
+    date: Jul 10, 2013
+-
+  data:
     title: "Running production apps on Heroku, an in-depth video checklist"
     url: http://vimeo.com/69263217
     date: Jul 9, 2013
