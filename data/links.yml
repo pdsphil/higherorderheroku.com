@@ -1,5 +1,10 @@
 -
   data:
+    title: "Use custom fonts within your Heroku app by adding them to the .fonts dir"
+    url: http://john.beynon.org.uk/2013/04/23/custom-fonts-on-heroku/
+    date: Jul 11, 2013
+-
+  data:
     title: "Run .NET apps on Heroku"
     url: http://friism.com/running-net-on-heroku
     date: Jul 10, 2013
