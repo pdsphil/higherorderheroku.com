@@ -1,5 +1,10 @@
 -
   data:
+    title: "Automatically configure the RQ job queue for your Flask applications on Heroku"
+    url: http://rdegges.github.io/flask-heroku-rqify/
+    date: Jul 12, 2013
+-
+  data:
     title: "Use custom fonts within your Heroku app by adding them to the .fonts dir"
     url: http://john.beynon.org.uk/2013/04/23/custom-fonts-on-heroku/
     date: Jul 11, 2013
