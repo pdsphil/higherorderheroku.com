@@ -1,5 +1,10 @@
 -
   data:
+    title: "Establish a continuous delivery workflow on Heroku with pipelines"
+    url: https://devcenter.heroku.com/articles/labs-pipelines?utm_source=Higher%20Order%20Heroku&utm_medium=twitter
+    date: Jul 15, 2013
+-
+  data:
     title: "Automatically configure the RQ job queue for your Flask applications on Heroku"
     url: http://rdegges.github.io/flask-heroku-rqify/
     date: Jul 12, 2013
