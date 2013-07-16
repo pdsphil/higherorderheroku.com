@@ -1,5 +1,10 @@
 -
   data:
+    title: "Setting up continuous integration from Travis CI to Heroku"
+    url: http://about.travis-ci.org/blog/2013-07-09-introducing-continuous-deployment-to-heroku/
+    date: Jul 16, 2013
+-
+  data:
     title: "Establish a continuous delivery workflow on Heroku with pipelines"
     url: https://devcenter.heroku.com/articles/labs-pipelines?utm_source=Higher%20Order%20Heroku&utm_medium=twitter
     date: Jul 15, 2013
