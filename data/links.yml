@@ -1,5 +1,10 @@
 -
   data:
+    title: "heroku-bouncer-demo lets you get hands on with the Heroku API and OAuth service"
+    url: https://github.com/schneems/heroku-bouncer-demo
+    date: Jul 17, 2013
+-
+  data:
     title: "Setting up continuous integration from Travis CI to Heroku"
     url: http://about.travis-ci.org/blog/2013-07-09-introducing-continuous-deployment-to-heroku/
     date: Jul 16, 2013
