@@ -1,5 +1,10 @@
 -
   data:
+    title: "Speed up Heroku deploys by caching Rails assets during compilation"
+    url: http://blog.alexmaccaw.com/faster-deploys
+    date: Jul 18, 2013
+-
+  data:
     title: "heroku-bouncer-demo lets you get hands on with the Heroku API and OAuth service"
     url: https://github.com/schneems/heroku-bouncer-demo
     date: Jul 17, 2013
