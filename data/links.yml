@@ -1,5 +1,10 @@
 -
   data:
+    title: "Migrate config vars across pipelines with the heroku-config-pipeline plugin"
+    url: https://github.com/gulopine/heroku-config-pipeline
+    date: Jul 23, 2013
+-
+  data:
     title: "Speed up Heroku deploys by caching Rails assets during compilation"
     url: http://blog.alexmaccaw.com/faster-deploys
     date: Jul 18, 2013
