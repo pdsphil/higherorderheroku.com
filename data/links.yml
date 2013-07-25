@@ -1,5 +1,10 @@
 -
   data:
+    title: "The inside scoop on developing and maintaining the Node.js Heroku buildpack"
+    url: http://buildpack-adventure.herokuapp.com/
+    date: Jul 24, 2013
+-
+  data:
     title: "Migrate config vars across pipelines with the heroku-config-pipeline plugin"
     url: https://github.com/gulopine/heroku-config-pipeline
     date: Jul 23, 2013
