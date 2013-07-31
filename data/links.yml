@@ -1,5 +1,10 @@
 -
   data:
+    title: "Using private GitHub repos for dependencies with NPM for Node.js on Heroku"
+    url: http://rzrsharp.net/2013/07/02/private-github-repos-with-npm-and-heroku.html
+    date: Jul 31, 2013
+-
+  data:
     title: "The inside scoop on developing and maintaining the Node.js Heroku buildpack"
     url: http://buildpack-adventure.herokuapp.com/
     date: Jul 24, 2013
