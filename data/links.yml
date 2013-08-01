@@ -1,5 +1,10 @@
 -
   data:
+    title: "Efficiently serve static files in Django with DJ-Static"
+    url: http://kennethreitz.org/introducing-dj-static/
+    date: Aug 01, 2013
+-
+  data:
     title: "Using private GitHub repos for dependencies with NPM for Node.js on Heroku"
     url: http://rzrsharp.net/2013/07/02/private-github-repos-with-npm-and-heroku.html
     date: Jul 31, 2013
