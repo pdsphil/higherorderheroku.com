@@ -1,5 +1,10 @@
 -
   data:
+    title: "Have a Python-related question about Heroku? Ask on the new Discourse-powered discussion board"
+    url: https://discussion.heroku.com/
+    date: Aug 05, 2013
+-
+  data:
     title: "Running the Dynamo web framework in Erland-based Elixir on Heroku"
     url: http://ctshryock.com/posts/2013/07/02/running-elixir-dynamo-on-heroku.html
     date: Aug 02, 2013
