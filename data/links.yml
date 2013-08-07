@@ -1,5 +1,10 @@
 -
   data:
+    title: "Are you a Heroku user, or developer? The latter is more focused on extending the platform than building apps on it"
+    url: https://devcenter.heroku.com/categories/extending-heroku
+    date: Aug 07, 2013
+-
+  data:
     title: "Have a Python-related question about Heroku? Ask on the new Discourse-powered discussion board"
     url: https://discussion.heroku.com/
     date: Aug 05, 2013
