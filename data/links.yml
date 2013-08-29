@@ -1,5 +1,10 @@
 -
   data:
+    title: "Stuck behind a firewall and can't access your Heroku Postgres DB? Try JackDB, a complete, web-based DB environment"
+    url: http://www.jackdb.com/
+    date: Aug 29, 2013
+-
+  data:
     title: "Automate the build & deployment of your Rails application from GitHub to Heroku"
     url: https://snap-ci.com/
     date: Aug 27, 2013
