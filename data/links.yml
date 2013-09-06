@@ -1,5 +1,10 @@
 -
   data:
+    title: "Use pg:push and pg:pull to copy to and from your Heroku Postgres database"
+    url: https://github.com/heroku/heroku-pg-extras/issues/42
+    date: Sep 6, 2013
+-
+  data:
     title: "Stuck behind a firewall and can't access your Heroku Postgres DB? Try JackDB, a complete, web-based DB environment"
     url: http://www.jackdb.com/
     date: Aug 29, 2013
