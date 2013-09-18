@@ -1,5 +1,10 @@
 -
   data:
+    title: "Building a realtime chat app with Flask and Heroku"
+    url: http://callmephilip.github.io/chatzilla/
+    date: Sep 6, 2013
+-
+  data:
     title: "Use pg:push and pg:pull to copy to and from your Heroku Postgres database"
     url: https://github.com/heroku/heroku-pg-extras/issues/42
     date: Sep 6, 2013
