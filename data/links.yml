@@ -1,5 +1,10 @@
 -
   data:
+    title: "Use pg:pull and pg:push to import/export Heroku Postgres databases"
+    url: https://devcenter.heroku.com/articles/heroku-postgresql#pg-push-and-pg-pull
+    date: Oct 1, 2013
+-
+  data:
     title: "Building a realtime chat app with Flask and Heroku"
     url: http://callmephilip.github.io/chatzilla/
     date: Sep 6, 2013
