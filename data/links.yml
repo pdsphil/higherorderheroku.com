@@ -1,5 +1,10 @@
 -
   data:
+    title: "New Heroku Dyno Size Available: 'PX' with 8 cores and 6 GB RAM"
+    url: https://blog.heroku.com/archives/2014/1/31/heroku-xl
+    date: Feb 3, 2014
+-
+  data:
     title: "Use pg:pull and pg:push to import/export Heroku Postgres databases"
     url: https://devcenter.heroku.com/articles/heroku-postgresql#pg-push-and-pg-pull
     date: Oct 1, 2013
