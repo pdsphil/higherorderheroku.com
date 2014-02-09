@@ -1,5 +1,10 @@
 -
   data:
+    title: "Tuning Ruby 2.1 RAM Usage on Heroku"
+    url: https://discussion.heroku.com/t/tuning-rgengc-2-1-on-heroku/359
+    date: Feb 9, 2014
+-
+  data:
     title: "A new Heroku Dyno Size is now available: 'PX' with 8 cores and 6 GB RAM"
     url: https://blog.heroku.com/archives/2014/1/31/heroku-xl
     date: Feb 3, 2014
