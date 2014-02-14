@@ -1,5 +1,10 @@
 -
   data:
+    title: "Librato and Heroku, a Match Made of Win"
+    url: http://blog.librato.com/posts/librato-and-heroku
+    date: Feb 14, 2014
+-
+  data:
     title: "Tuning Ruby 2.1 RAM Usage on Heroku"
     url: https://discussion.heroku.com/t/tuning-rgengc-2-1-on-heroku/359
     date: Feb 9, 2014
