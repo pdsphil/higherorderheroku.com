@@ -1,5 +1,10 @@
 -
   data:
+    title: "Heroku App Environment Now Available to the Full Build Process"
+    url: https://devcenter.heroku.com/changelog-items/416
+    date: Feb 25, 2014
+-
+  data:
     title: "Librato and Heroku, a Match Made of Win"
     url: http://blog.librato.com/posts/librato-and-heroku
     date: Feb 14, 2014
