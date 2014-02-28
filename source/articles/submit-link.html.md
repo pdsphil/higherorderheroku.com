@@ -9,8 +9,8 @@ If you have, or come across, an interesting article, presentation or video relev
 
 ### Online link submission
 
-<a href="http://higherorderheroku.wufoo.com/forms/z7x3p3/" onclick="window.open(this.href,  null, 'height=260, width=680, toolbar=0, location=0, status=1, scrollbars=1, resizable=1'); return false">Use this form</a> to submit a link.
-  
+<a href="https://hoheroku.wufoo.com/forms/z1ud198f00dvgsx/" onclick="window.open(this.href,  null, 'height=320, width=680, toolbar=0, location=0, status=1, scrollbars=1, resizable=1'); return false">Use this form</a> to submit a link.
+
 
 ### Via email
 
