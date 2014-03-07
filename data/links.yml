@@ -1,5 +1,10 @@
 -
   data:
+    title: "Deploying Rails Applications With The Puma Web Server"
+    url: https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server
+    date: Mar 6, 2014
+-
+  data:
     title: "Building Heroku buildpack binaries with Docker"
     url: http://friism.com/building-heroku-buildpack-binaries-with-docker
     date: Feb 27, 2014
