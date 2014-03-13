@@ -1,5 +1,10 @@
 -
   data:
+    title: "Distributing Reads to Followers with the Octopus gem"
+    url: https://devcenter.heroku.com/articles/distributing-reads-to-followers-with-octopus
+    date: Mar 13, 2014
+-
+  data:
     title: "Deploying Rails Applications With The Puma Web Server"
     url: https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server
     date: Mar 6, 2014
