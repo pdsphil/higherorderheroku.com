@@ -1,5 +1,10 @@
 -
   data:
+    title: "What you should know about Heroku buildpack environment changes"
+    url: http://dncrews.com/tools/2014/03/21/heroku-user-env-changes/
+    date: Mar 24, 2014
+-
+  data:
     title: "Memory Inside Linux Containers"
     url: http://fabiokung.com/2014/03/13/memory-inside-linux-containers/
     date: Mar 18, 2014
