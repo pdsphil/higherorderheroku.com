@@ -1,5 +1,10 @@
 -
   data:
+    title: "Postgres Performance for Humans"
+    url: http://pyvideo.org/video/2641/postgres-performance-for-humans
+    date: Apr 16, 2014
+-
+  data:
     title: "What you should know about Heroku buildpack environment changes"
     url: http://dncrews.com/tools/2014/03/21/heroku-user-env-changes/
     date: Mar 24, 2014
