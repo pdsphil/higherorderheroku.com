@@ -1,5 +1,10 @@
 -
   data:
+    title: "Early Access to New and Improved PHP Support on Heroku"
+    url: https://discussion.heroku.com/t/early-access-new-and-improved-php-support/545
+    date: Apr 23, 2014
+-
+  data:
     title: "Postgres Performance for Humans"
     url: http://pyvideo.org/video/2641/postgres-performance-for-humans
     date: Apr 16, 2014
