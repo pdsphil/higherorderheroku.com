@@ -1,5 +1,10 @@
 -
   data:
+    title: "heroku.vim - A Vim plugin for interacting with Heroku"
+    url: https://github.com/tpope/vim-heroku
+    date: Apr 30, 2014
+-
+  data:
     title: "What is a buildpack?"
     url: http://www.activestate.com/blog/2014/04/paas-buildpacks
     date: Apr 28, 2014
