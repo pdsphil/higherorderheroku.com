@@ -1,5 +1,10 @@
 -
   data:
+    title: "hk - a fast Heroku CLI client written in Go"
+    url: https://github.com/heroku/hk
+    date: May 3, 2014
+-
+  data:
     title: "heroku.vim - A Vim plugin for interacting with Heroku"
     url: https://github.com/tpope/vim-heroku
     date: Apr 30, 2014
