@@ -1,5 +1,10 @@
 -
   data:
+    title: "Creating Apps via app.json and the Platform API"
+    url: https://devcenter.heroku.com/articles/setting-up-apps-using-the-heroku-platform-api
+    date: May 13, 2014
+-
+  data:
     title: "hk - a fast Heroku CLI client written in Go"
     url: https://github.com/heroku/hk
     date: May 3, 2014
