@@ -1,5 +1,10 @@
 -
   data:
+    title: "Build and Release Using the Heroku Platform API"
+    url: https://devcenter.heroku.com/articles/build-and-release-using-the-api
+    date: Jul 9, 2014
+-
+  data:
     title: "Creating Apps via app.json and the Platform API"
     url: https://devcenter.heroku.com/articles/setting-up-apps-using-the-heroku-platform-api
     date: May 13, 2014
