@@ -1,5 +1,10 @@
 -
   data:
+    title: "Simple deploys via the new Heroku Button"
+    url: https://blog.heroku.com/archives/2014/8/7/heroku-button
+    date: Aug 7, 2014
+-
+  data:
     title: "Fourchette: test your GitHub pull requests against a fork of your Heroku app"
     url: https://github.com/rainforestapp/fourchette
     date: Jul 18, 2014
