@@ -3,12 +3,13 @@ title: Configuring CloudFlare DNS for a Heroku App
 date: November 9, 2012
 ---
 
+*This article was updated on Sep. 30, 2014 to reflect CloudFlare's new CNAME flattening capability*
+
 [CloudFlare](http://cloudflare.com) is a popular, and accessible, CDN and website optimizer. If you've heard of Akamai then you know basically what CloudFlare does -- they sit between your site and your users and accelerate your site's content by edge-caching and other nifty on-the-fly techniques. CloudFlare also offers additional availability and security features to automatically handle DDoS and other real-world problems.
 
 [Heroku](http://www.heroku.com) needs no introduction other than to say it's the best place to deploy your applications.
 
 So, how do you get the benefits of CloudFlare for your Heroku application? Until CloudFlare provides a [Heroku add-on](https://addons.heroku.com/) there's a bit of manual configuration that needs to occur.
-
 
 For the purpose of this post I'm assuming you already have a CloudFlare account and an existing Heroku app.
 
@@ -19,74 +20,52 @@ Since CloudFlare needs to be able to handle DDoS and other traffic-related event
 
 ![Initial DNS configuration](http://f.cl.ly/items/0E0A1b0L341Z2r2R3K0I/Image%202012-11-08%20at%203.51.40%20PM.png)
 
-While this is a great way to quickly bootstrap your DNS, it implements the [DNS anti-pattern of using A-records](https://devcenter.heroku.com/articles/avoiding-naked-domains-dns-arecords) to resolve to a dynamically determined IP address.
+While this is a great way to quickly bootstrap your DNS, it might result in the use of A-records to resolve your root domain (which is a [Heroku anti-pattern](https://devcenter.heroku.com/articles/avoiding-naked-domains-dns-arecords)). Under the covers Heroku uses multiple IP addresses. Choosing just one to bind to is a dangerous practice that can adversely affect your app's availability. In short, you should never use A-records in your DNS on Heroku because those static IP addresses can change at any time and represent a single point of failure.
 
-Under the covers Heroku uses multiple IP addresses. Choosing just one to bind to is a dangerous practice that can adversely affect your app's availability. In short, you should never use A-records in your DNS on Heroku because those static IP addresses can change at any time and represent a single point of failure.
+The proper setup is to use CloudFlare's [CNAME flattening](http://blog.cloudflare.com/introducing-cname-flattening-rfc-compliant-cnames-at-a-domains-root/) feature to dynamically resolve requests for the root domain (`ryandaigle.com` is a root domain whereas `www.ryandaigle.com` is not).
 
-Avoid the use of A-records and root domains (`ryandaigle.com` is a root domain whereas `www.ryandaigle.com` is not) by redirecting all root domain `ryandaigle.com` requests to `www.ryandaigle.com`.
+## Root domains
 
-## Root domain redirect
+With CNAME flattening, resolution requests for the root domain return a single IP address (as is required of A-records) determined at the time of the request. However, each resolution request can return a different IP, so you haven't bound yourself to a single point of failure. It represents the best combination of CNAME and A-records.
 
-Setting up a URL redirect (or "forward" in many DNS providers' parlance) on CloudFlare requires that you go into the "Page rules" for your site.
+If you're not already on the DNS page for your domain, choose the "DNS Settings" option for the domain in question from your list of sites.
 
-From your [CloudFlare websites list](https://www.cloudflare.com/my-websites) click on the gears icon for your site and select "Page rules".
+![](http://f.cl.ly/items/3C2J3Z0l2n0N0R1q3t3y/Image%202014-09-30%20at%2012.26.40%20PM.png)
 
-![Website settings](http://cl.ly/image/2A1R2V2a2D2k/Image%202012-11-08%20at%203.57.57%20PM.png)
+To use CNAME flattening on CloudFlare for your root domain, just add a CNAME record pointing from your root domain to your app on Heroku.
 
+![](http://f.cl.ly/items/2U1l1k1x46462q1L3A1h/Image%202014-09-30%20at%2012.30.16%20PM.png)
 
-If you don't see "Page rules" as an option your site may not be fully configured. Complete the CloudFlare setup first or go to the CloudFlare settings page and under "Cache Purge" you will see a link to "Page rules".
+On adding the record, it will be recognized as a CNAME record at the root domain and flattening will be in effect.
 
+![](http://f.cl.ly/items/3A0p1U430p3q0B3x251N/Image%202014-09-30%20at%2012.32.04%20PM.png)
 
-Enter the root domain for your site and the `www` (or other) sub-domain to redirect to. Append a `*` wildcard pattern to the root domain and the `$1` regex to the sub-domain so all requests made to the root domain are properly forwarded (e.g. `ryandaigle.com/a/mypage` will get forward to `www.ryandaigle.com/a/mypage`). You'll need to turn "on" the forwarding toggle to see the sub-domain field.
-
-![Forwarding rule](http://cl.ly/image/0a212W0D3a11/Image%202012-11-08%20at%204.02.49%20PM.png)
-
-Make sure you include the `http://` part of the sub-domain URL. Click "Add rule" to save the forward.
+At this point, requests to the root domain will be properly resolved to one of the many Heroku IP addresses currently in rotation and your root is properly configured.
 
 ## Sub-domains
 
-If CloudFlare wasn't able to retrieve your existing DNS settings, or you have a new Heroku app, you'll need to make sure you have the proper CNAME DNS entries.
+If you have sub-domains you want your Heroku app to also server, you'll need to make sure you have the proper CNAME DNS entries.
 
-Map the `www` sub-domain to your Heroku app URL (`appname.herokuapp.com`) using a `CNAME` record.
+For instance, map the `www` sub-domain to your Heroku app URL (`appname.herokuapp.com`) using a `CNAME` record.
 
 ![CNAME entry](http://cl.ly/image/1j1o2u0y3a2p/Image%202012-11-08%20at%204.11.25%20PM.png)
 
 ## Confirmation
 
-To confirm your setup, first verify that your root domain redirects to the sub-domain. Use the `curl` utility to verify the redirect.
+To confirm your setup, verify that all requests are being resolved by CloudFlare. The easiest way to do this is to inspect the HTTP headers using the `curl` command.
 
 ```bash
 $ curl -I ryandaigle.com
-HTTP/1.1 301 Moved Permanently
-...
-Location: http://www.ryandaigle.com/
-```
-
-You should see a `301 Moved Permanently` response code and the proper sub-domain URL in the `Location` header.
-
-As you may already know, troubleshooting DNS is notoriously difficult given the propagation lag. In my testing it took about an hour for new CloudFlare DNS settings to take effect (and this is *after* CloudFlare's name servers are active for your site).
-
-
-After confirming the redirect you should also confirm that a sub-domain request passes through the CloudFlare system. Do this with a `curl` against the `www` sub-domain.
-
-```bash
-$ curl -I www.ryandaigle.com
 HTTP/1.1 200 OK
 Server: cloudflare-nginx
 ...
 Set-Cookie: __cfduid=askdjfalk8a98a9sd8fa9sda9jkar8; expires=Mon, 23-Dec-2019 23:50:00 GMT; path=/; domain=.ryandaigle.com
 ```
 
-You can identify a CloudFlare-handled request by two response headers: the `Server` being set to `cloudflare-nginx` and a `__cfduid` cookie. If you see these two headers in the response then CloudFlare is properly handling your request. For my domain it took several hours to see these headers appear, so sleep on it if you're not seeing this after configuring the DNS.
+You can identify a CloudFlare-handled request by two response headers: the `Server` being set to `cloudflare-nginx` and a `__cfduid` cookie. If you see these two headers in the response then CloudFlare is properly handling your request.
 
-## Conclusion
+Do this for the root domain as well as any sub-domains you configured in CloudFlare.
 
-Once these DNS changes have propagated you might think it would be safe to remove the A-record. However, in my testing, **you still need to keep the A-record listed in your CloudFlare DNS config** or your hostname won't resolve. The forwarding rule still works as desired and bypasses the A-record IP address but there must be an A-record listed.
-
-
-If you don't have an A-record already, add one from `@` (the root domain notation) to one of the following IPs: `75.101.163.44`, `75.101.145.87`, `174.129.212.2`.
-
-
-At this point all requests to your root domain will be forwarded to their `www` equivalent which properly resolves to one of Heroku's dynamically determined IP addresses. This is the appropriate setup for Heroku, and is the most robust configuration for any cloud-based environment.
+As you may already know, troubleshooting DNS is notoriously difficult given the propagation lag. In my testing it took about an hour for new CloudFlare DNS settings to take effect (and this is *after* CloudFlare's name servers were active for my site).
 
 Now that your DNS is properly configured I'd suggest browsing the CloudFlare app store and your site's CloudFlare settings for all the cool toys and switches you now have at your disposal. They also have a [good blog post for new users](http://blog.cloudflare.com/cloudflare-tips-recommended-steps-for-new-use).
