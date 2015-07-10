@@ -22,7 +22,7 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
         xml.id "http://www.higherorderheroku.com/#{entry.destination_path}"
         xml.published "#{Date.parse(entry.data['date']).iso8601}T00:00:00-08:00"
         xml.updated "#{Date.parse(entry.data['date']).iso8601}T00:00:00-08:00"
-        xml.author { xml.name "Ryan Daigle" }
+        xml.author { xml.name "Peter Braswell" }
         xml.content entry.render(:layout => false), "type" => "html"
       end
     end
