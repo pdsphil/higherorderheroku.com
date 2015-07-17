@@ -1,6 +1,6 @@
 ---
 title: Using the Heroku API and Platform to Build a Poor Man's "Stack On/Off Switch" - Part 1
-date: July 18, 2015
+date: July 17, 2015
 ---
 
 ## The Problem
