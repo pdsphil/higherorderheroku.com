@@ -27,5 +27,12 @@ This is the easy part.  Most languages and frameworks have the ability to read v
 
 That's it!  Pretty easy and pretty handy!  Happy Hacking!!
 
+## Addendum
+After I published this article last week, I got an email from one of my colleagues that pointed to a better and more reliable means of getting this same type of 'finger printing' accomplished in a more reliable way.  There's an environmental variable that gets injected into your environment when you deploy via the tried-and-true "git push heroku master".  The name of the variable is 'SOURCE_VERSION' and it's the commit SHA-1 of the source being built.  You can use this environmental variable any way you'd like.  As I cited in the example above, you could just output it on a page in your app.  You could also make it a return value of a REST call or something similar.  Whatever works for you!
+
+A shout out to Mike Jerome on the CSA team here at Heroku for bringing this to my attention!
+
+[Link to SOURCE_VERSION environment variable in builds](https://devcenter.heroku.com/changelog-items/630)
+
 Peter Braswell
 pbraswell@heroku.com
