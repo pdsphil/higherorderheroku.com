@@ -3,7 +3,7 @@ title: The Theory of Constraints - Part II
 date: August 28, 2015
 ---
 
-In case you missed last week's article, you can find [Part I here](http://www.higherorderheroku.com/articles/the-theory-of-constraints/)
+In case you missed last week's article, you can find [Part 1 here](http://www.higherorderheroku.com/articles/the-theory-of-constraints/)
 
 ##Goals in Context
 We talked a little bit in last week’s article about defining a “goal” with respect to what your “factory”, a web application in this context, is producing.  As I suggested then, a metric that I commonly hear cited as important is 'request response time'.  This could take the form of a page load or an api call but the idea is basically the same: A minimal amount of time should elapse between the time a request is initiated and when a result is returned.  A commonly cited target for this metric is "sub-second response".  While there is absolutely nothing wrong with this metric or a sub-second response, I can't help but feel like this a “go to” aspiration rather than a deeply considered goal.  Like Mom and apple pie, generally nobody has a problem with a zippy web app but are we honestly considering the big picture?  As with most other engineering disciplines, as you optimize one edge of the triangle, so too must you diminish another.  Other goals to consider might be: total transaction volume, end-user experience or cost and complexity.  Let's explore some of these other goals a little further.
