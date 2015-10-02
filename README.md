@@ -22,3 +22,4 @@ To deploy your own Higher Order Heroku:
 3. `heroku config:set HOST=mysite.com`
 3. `git push heroku master`
 4. `heroku open`
+# rails_and_angular_example
