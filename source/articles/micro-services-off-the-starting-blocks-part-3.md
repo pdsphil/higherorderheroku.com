@@ -1,6 +1,6 @@
 ---
 title: Micro-services Off the Starting Blocks? - Part III
-date: October 2, 2015
+date: October 9, 2015
 ---
 
 ## Short recap
