@@ -7,14 +7,14 @@ date: October 9, 2015
 In [Part I](http://www.higherorderheroku.com/articles/micro-services-off-the-starting-blocks-part-1/) I talked a little from a theoretical perspective about the practicality of considering a non-micro-services architecture as starting point for an application, not because micro-services are a bad idea, quite the contrary!  The counter balance to micro-services all the time, everywhere is that it inevitably adds complexity which can affect time-to-value of an application.  So what do we do?  In [Part II](http://www.higherorderheroku.com/articles/micro-services-off-the-starting-blocks-part-2/) I stared to lay the ground work for building a web application that is micro-service ready, but is deployed as a single application and does not have the UI entangled with the back-end API.
 
 ## AngularJS, Yo and Grunt
-First, I'll assume that you have npm installed and yo installed on your machine.  If you don't, there's plenty of readily accessible resources out there to help you with that.  Next, you'll need yo and the angular generator.  That looks like this:
+First, I'll assume that you have npm installed installed on your machine.  If you don't, there's plenty of readily accessible resources out there to help you with that.  Next, you'll need Yo and the angular generator.  That looks like this:
 
 ```bash
 npm install -g yo
 npm install -g generator-angular
 ```
 
-Now from the root directory of your project, make a directory of the client piece of your application.  With my amazing powers of creativity, I choose the name 'client':
+Now from the root directory of your project, make a directory for the client piece of your application.  With my amazing powers of creativity, I choose the name 'client':
 
 ```bash
 mkdir client && cd client
