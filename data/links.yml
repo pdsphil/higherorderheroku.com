@@ -1,5 +1,10 @@
 -
   data:
+    title: "Debugging a Memory Leak on Heroku"
+    url: http://blog.codeship.com/debugging-a-memory-leak-on-heroku/
+    date: October 16, 2015
+-
+  data:
     title: "Exploring Microservices on Heroku"
     url: http://blog.codeship.com/exploring-microservices-architecture-on-heroku/
     date: Aug 7, 2015
